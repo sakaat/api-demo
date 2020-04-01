@@ -1,0 +1,7 @@
+{
+    "ext": "ts",
+    "ignore": [
+        "**/*.test.ts"
+    ],
+    "exec": "npx ts-node ./index.ts"
+}

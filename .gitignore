@@ -1,0 +1,5 @@
+/rest-api/node_modules/
+/rest-api/dist/
+
+/graphql-api/node_modules/
+/graphql-api/dist/
