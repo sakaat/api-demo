@@ -3,3 +3,6 @@
 
 /graphql-api/node_modules/
 /graphql-api/dist/
+
+/jrest-api/node_modules/
+/jrest-api/dist/
