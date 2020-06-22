@@ -17,7 +17,7 @@ router.get("/users", (_req, res) => {
 router.get("/users/search", (req, res) => {
     const data = { users: [] };
     users
-        .filter((u) => u.name.includes(req.query.q))
+        .filter((u) => u.name.includes((req.query as any).q))
         .map((u) => {
             data.users.push({ id: u.id, name: u.name });
         });
