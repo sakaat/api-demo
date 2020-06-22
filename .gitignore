@@ -6,3 +6,6 @@
 
 /jrest-api/node_modules/
 /jrest-api/dist/
+
+/jgraphql-api/node_modules/
+/jgraphql-api/dist/
