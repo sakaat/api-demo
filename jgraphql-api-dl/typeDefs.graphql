@@ -1,0 +1,27 @@
+# ユーザー
+type User {
+    # ユーザーID
+    id: ID!
+    # 名前
+    name: String!
+    # チーム
+    team: Team!
+}
+
+# チーム
+type Team {
+    # チームID
+    id: ID!
+    # チーム名
+    name: String!
+    # メンバー
+    member: [User!]
+}
+
+type Query {
+    # 名前検索
+    search(
+        # 検索文字列
+        q: String!
+    ): [User!]
+}
