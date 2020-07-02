@@ -9,3 +9,6 @@
 
 /jgraphql-api/node_modules/
 /jgraphql-api/dist/
+
+/jgraphql-api-ndl/node_modules/
+/jgraphql-api-ndl/dist/
