@@ -5,6 +5,8 @@ CREATE TABLE IF NOT EXISTS users
 , teamid varchar(36) NOT NULL
 , PRIMARY KEY (id)
 );
+CREATE INDEX ON users (name);
+CREATE INDEX ON users (teamid);
 
 CREATE TABLE IF NOT EXISTS teams
 (
@@ -13,3 +15,5 @@ CREATE TABLE IF NOT EXISTS teams
 , office varchar(10) NOT NULL
 , PRIMARY KEY (id)
 );
+CREATE INDEX ON teams (name);
+CREATE INDEX ON teams (office);

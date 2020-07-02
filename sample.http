@@ -1,0 +1,4 @@
+POST http://localhost:3000/graphql
+Content-Type: application/json
+
+{"query": "query { search(q: \"B\") { id name team { id name member { id name } } } }"}

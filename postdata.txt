@@ -1,0 +1,1 @@
+{"query": "query { search(q: \"B\") { id name team { id name member { id name } } } }"}
