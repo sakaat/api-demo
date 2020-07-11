@@ -9,12 +9,12 @@ const resolvers = {
     },
     User: {
         team: (parent, _args) => {
-            return teams.filter((t) => t.id === parent.team)[0];
+            return teams.filter((t) => t.id === parent.teamid)[0];
         },
     },
     Team: {
         member: (parent, _args) => {
-            return users.filter((u) => u.team === parent.id);
+            return users.filter((u) => u.teamid === parent.id);
         },
     },
 };
